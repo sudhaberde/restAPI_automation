@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="rest api tests">
+<test name="RestAPI tests">
+<classes>
+			<class name="com.sudha.restapi.tests.SimpleGetTest" />
+</classes>			
+</test>
+<!-- -	<test name="Shopping cart: Test on Firefox">
+		<parameter name="browser" value="Firefox" />
+		<classes>
+			<class name="com.sudha.shoppingcart.setup.OpenBrowser" />
+			<class name="com.sudha.shoppingcart.tests.HomePageTest" />
+			<class name="com.sudha.shoppingcart.tests.CartPageTest" />
+			<class name="com.sudha.shoppingcart.setup.Login" />
+			<class name="com.sudha.shoppingcart.tests.WishlistTest" />
+				<class name="com.sudha.shoppingcart.tests.RestAPIResponse"/>
+			<class name="com.sudha.shoppingcart.setup.CloseBrowser" />
+		</classes>
+	</test>
+
+	<test name="Shopping cart: Test on Chrome">
+		<parameter name="browser" value="Chrome" />
+		<classes>
+			<class name="com.sudha.shoppingcart.setup.OpenBrowser" />
+			<class name="com.sudha.shoppingcart.tests.HomePageTest" />
+			<class name="com.sudha.shoppingcart.tests.CartPageTest" />
+			<class name="com.sudha.shoppingcart.setup.Login" />
+			<class name="com.sudha.shoppingcart.tests.WishlistTest" />
+			<class name="com.sudha.shoppingcart.setup.CloseBrowser" />
+		</classes>
+	</test>
+ -->
+</suite>
